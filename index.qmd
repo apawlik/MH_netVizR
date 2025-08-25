@@ -499,10 +499,6 @@ ggraph(greys, "stress", bbox = 15) +
 
 # Code through: Recreate the polblogs viz
 
-<details>
-
-<summary>Expand</summary>
-
 In this section, we do a little code through to recreate the figure shown below.
 
 ![](polblogs_orig.png)
@@ -704,11 +700,6 @@ ggraph(lay) +
   scale_size(range = c(0.5, 7)) +
   theme_graph()
 ```
-
-That's it!
-
-
-</details>
 
 # Miscellaneous
 
